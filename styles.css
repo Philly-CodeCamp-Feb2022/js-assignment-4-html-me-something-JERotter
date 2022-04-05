@@ -1,3 +1,10 @@
 body {
-    background-color: rgb(138, 118, 109);
+    background-color: rgb(148, 133, 125);
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+p {
+    font-size: 22px;
 }
