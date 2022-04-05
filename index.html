@@ -10,71 +10,83 @@
 
    <body>
       <header>
-         <h1>Technologies I've Used and Worked On:</h1>
-
+         <h1 id="mainHeading">Technologies I've Used and Worked On:</h1>
+         <nav>
+				<ul>
+					<li><a href="#radar">AN/SPS-55</a></li>
+					<li><a href="#2m">2M Repair</a></li>
+					<li><a href="#sensors">Thermopiles</a></li>
+					<li><a href="#lasers">Lasers</a></li>
+					<li><a href="#survey">Survey</a></li>
+					<li><a href="#rtu">RTU</a></li>
+					<li><a href="#future">Future Plans</a></li>
+				</ul>
+			</nav>
 
       </header>
 
       <main>
          <article>
             <section>
-               <a name="SPS-55 Radar"></a> <!-- use name for navbar-->
+               <a name="radar"></a> <!-- use name for navbar-->
                <h2>SPS-55 Surface Search Radar</h2>
-               <p>
+               <h3>Radio Detection And Ranging</h3>
+               <p id="testp" class="funParagraph">
                   After graduating from my vocational schools as an Electronics technician, I spent my first few years in the Navy working on a surface search radar called the AN/SPS-55, which the Navy beagn to use in 1971. Technically being a part of the STEM community, yet finding myself working on ancient tech has been a recurring theme throughout my career. The Navy ET rating badge pictured on the left is a depiction of a helium atom.
 
                </p>
-               <img src="./images/Rating_Badge_ET.jpeg" width="440" height="335" alt="Electronics Technician Naval Rating Badge Helieum Atom"> 
+               <img src="./images/Rating_Badge_ET.jpeg" width="640" height="335" alt="Electronics Technician Naval Rating Badge Helieum Atom"> 
 
-               <img src="./images/440px-USS_Samuel_B._Roberts_SPS-55.jpg" alt="SPS-55 Surface Search Radar Antenna">
+               <img src="./images/440px-USS_Samuel_B._Roberts_SPS-55.jpg" width="640" height="335" alt="SPS-55 Surface Search Radar Antenna">
             </section>
 
             <section>
-               <a name="2M/Micro-Miniature Electronics"></a> <!-- use name for navbar-->
+               <a name="2m"></a> <!-- use name for navbar-->
                <h2>2M/Micro-Miniature Electronics Repair</h2>
                <h3>AKA "soldering"</h3>
                <p>After my first ship was decommisioned, I was quite happy to be sent to school to learn micro electronics repair, which mainly consisted of soldering.</p>
-               <img src="/Users/jenell/Desktop/js-assignment-4-html-me-something-JERotter/images/bigstock-Miniature-Engineers-Fixing-Err-26417516.jpeg" width="880" height="600" alt="Miniature engineers repairing circuit board">
+               <img src="/Users/jenell/Desktop/js-assignment-4-html-me-something-JERotter/images/bigstock-Miniature-Engineers-Fixing-Err-26417516.jpeg" width="1280" height="600" alt="Miniature engineers repairing circuit board">
             </section>
 
             <section>
-               <a name="Thermopile Sensors"></a> <!-- use name for navbar-->
+               <a name="sensors"></a> <!-- use name for navbar-->
                <h2>Thermopile Sensors</h2>
                <p>During my first few years with Coherent Inc, I worked as a production technician, which consisted of testing thermopile sensors that were used to detect the power, frequency and other output data of a laser. A thermopile is an electronic device that converts heat into electrical voltage</p>
-               <img src="images/Thermopiles.jpeg" width="440" height="335" alt="Coherent Inc Thermopile sensors">
-               <img src="images/Thermos2.jpeg" width="440" height="335" alt="Coherent Inc Thermopile sensors">
+               <img src="images/Thermopiles.jpeg" width="640" height="335" alt="Coherent Inc Thermopile sensors">
+               <img src="images/Thermos2.jpeg" width="640" height="335" alt="Coherent Inc Thermopile sensors">
             </section>
 
             <section>
-               <a name="Lasers"></a> <!-- use name for navbar-->
+               <a name="lasers"></a> <!-- use name for navbar-->
                <h2>Lasers!</h2>
+               <h3>Light Amplification by Stimulated Emission of Radiation</h3>
                <p>From sensors, I eventually moved on to building and testing laser diodes. Laser diodes are similar to LEDs, but their output is more intense with additional optics added to create a laser beam. The OBIS (left) and the Stingray (right) are both used in the medical feild for a process known as cell flow cytometry.</p>
-               <img src="images/OBIS.jpeg" width="440" height="335" alt="Coherent Inc OBIS Laser">
-               <img src="images/StingRay1.jpeg" width="440" height="335" alt="Coherent Inc Stingray Laser">
+               <img src="images/OBIS.jpeg" width="640" height="335" alt="Coherent Inc OBIS Laser">
+               <img src="images/StingRay1.jpeg" width="640" height="335" alt="Coherent Inc Stingray Laser">
             </section>
 
             <section>
-               <a name="Survey"></a> <!-- use name for navbar-->
+               <a name="survey"></a> <!-- use name for navbar-->
                <h2>Land Survey Equipment</h2>
                <p>Pictured on the left are devices that are used by PWD survyors to map the floors of bodies of water. On the right is a GPS antenna and data collector used to precisely locate certain faetures that are of interest to the water department, such a valve and the contours of sidewalks. After I left Coherent Inc to return to Philadelphia, I was lucky enough to be hired by the Philadelphia Water Department. While I enjoyed my time with the Land Survey Unit, it quickly became apparent to me that working out in the elements was not ideal.</p>
-               <img src="images/HydroneStation.jpeg" width="440" height="335" alt="Coherent Inc OBIS Laser">
-               <img src="images/gpsUnit.jpeg" width="440" height="335" alt="Coherent Inc Stingray Laser">
+               <img src="images/HydroneStation.jpeg" width="640" height="335" alt="Coherent Inc OBIS Laser">
+               <img src="images/gpsUnit.jpeg" width="640" height="335" alt="Coherent Inc Stingray Laser">
             </section>
 
             <section>
-               <a name="RTU"></a> <!-- use name for navbar-->
+               <a name="rtu"></a> <!-- use name for navbar-->
                <h2>RTU & Modems</h2>
                <p>After returning to my original vocation within the Water Department, I signed on to work for the Load Control unit, which manages the city's fresh water. Load control accomplishes this through a system known as SCADA, which uses remote terminal units, or RTUs to contiuosuly monitor and collect data from various locations around the city. This is how we can detect water main breaks, security breaches, or other anomalies that may interfere with the conveyance of freah water. Pictured on the right is an example of the types of modems used to connect the RTUs.</p>
-               <img src="images/RTU.jpeg" width="440" height="335" alt="A Remote terminal unit">
-               <img src="images/cursed_modem.jpeg" width="440" height="335" alt="A cursed modem">
+               <img src="images/RTU.jpeg" width="640" height="335" alt="A Remote terminal unit">
+               <img src="images/cursed_modem.jpeg" width="640" height="335" alt="A cursed modem">
             </section>
 
             <section>
-               <a name="Future"></a> <!-- use name for navbar-->
+               <a name="future"></a> <!-- use name for navbar-->
                <h2>Looking Ahead to the Future</h2>
-               <p>Aside from my time with Coherent Inc, I haven't had the opprotunity to work with technology that is truly considered up to date! While many of my previous roles have included limited aspects of programming (configuring X86 RTUs, programming certain lasers, etc), this is the first time I've been able to really delve into the topic. I hope that in the future, I'll be abe to contribute to a software engineering team that not only reflects the diversity of Philadlephia, but who are also actively involved in improving digital accesibility for all of its residents.</p>
-               <img src="images/languages1.jpeg" width="440" height="335" alt="A Remote terminal unit">
-               <img src="images/languages2.jpeg" width="440" height="335" alt="A cursed modem">
+               <p>Aside from my time with Coherent Inc, I haven't had the opportunity to work with technology that is truly considered up to date! While many of my previous roles have included limited aspects of programming (configuring X86 RTUs, programming certain lasers, etc), this is the first time I've been able to really delve into the topic. I hope that in the future, I'll be able to contribute to a software engineering team that not only reflects the diversity of Philadelphia, but who are also actively involved in improving digital accessibility for all of its residents.</p>
+               <img src="images/languages1.jpeg" width="640" height="335" alt="A Remote terminal unit">
+               <img src="images/languages2.jpeg" width="640" height="335" alt="A cursed modem">
             </section>
          </article>
          <footer><p>&copy; 2022 Jenell Rotter</p></footer>
