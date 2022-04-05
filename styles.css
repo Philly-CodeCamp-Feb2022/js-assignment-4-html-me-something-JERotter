@@ -1,1 +1,41 @@
-/* Write your CSS here! */
+body {
+    display: block;
+    background-color: rgb(148, 133, 125);
+    width: 1400px;
+    margin: 8px;
+    
+}
+
+/* id used */
+#mainHeading {
+    /* It's kinda red? */
+    background-color: rgba(145, 51, 51, 0.597);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+h2,h3 {
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+/* class used */
+.funParagraph {
+background-color: rgb(42, 137, 106);
+}
+
+footer {
+    background-color: rgba(145, 51, 51, 0.597);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
